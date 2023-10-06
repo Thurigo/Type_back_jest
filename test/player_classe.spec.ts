@@ -1,5 +1,5 @@
 
-import { JogadorClasse, Guerreiro, Bardo, Mago, Ladrao, } from                   '../../type_back/src/Playerclass';
+import { JogadorClasse, Guerreiro, Bardo, Mago, Ladrao, } from  '../../type_back/src/Playerclass';
 
 //import { Randon_numero } from '../src/engine';
 
