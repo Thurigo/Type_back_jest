@@ -11,7 +11,5 @@ describe('Teste clase e lista de itens', () => {
         })
 
     })
-
-
-
+    
 })
