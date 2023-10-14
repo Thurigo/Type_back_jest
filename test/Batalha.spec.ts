@@ -18,7 +18,8 @@ describe('Teste batalha ataque', () => {
         const lista = criarListaDeInimigo(8);
         const dado = Randon_numero(1, 3);
         const test_Player = Atacar(Player, lista[dado]);
-        expect(test_Player.classe.defesa).toBe(0);
+        expect(test_Player.jogador.classe.defesa).toBe(0);
+        expect(test_Player.inimigo.defesa).toBe(0);
     })
 
     test('Teste de batalha de agilidade', () => {
@@ -44,7 +45,7 @@ describe('Teste batalha ataque', () => {
         const dado = Randon_numero(1, 3);
         const test_Player = TentarSorte(Player, lista[dado]);
         expect(test_Player.classe.sorte).toBe(1);
-        expect(test_Player.classe.sorte).toBe(2);
+        expect(test_Player.classe.sorte).toBe(3);
     });
 
 })
